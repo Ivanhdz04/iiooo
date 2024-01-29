@@ -1,0 +1,353 @@
+:root{
+    --color__green: #7bab37 /*hsl( 139.41deg 58.62% 54.51% )*/;
+    --color__red: #BF1F1F;
+    --color__green__caed: #8DBF41;
+    --color__orange__caed: #F29F05;
+    --color__yellow__caed: #F2CB05;
+    --color__purpe__caed: #BF368F;
+
+
+    --lima-50: #f5faeb;
+    --lima-100: #e8f3d4;
+    --lima-200: #d3e8ae;
+    --lima-300: #b5d87e;
+    --lima-400: #8dbf41;
+    --lima-500: #7bab37;
+    --lima-600: #5e8828;
+    --lima-700: #496823;
+    --lima-800: #3c5321;
+    --lima-900: #34481f;
+    --lima-950: #1a270c;
+
+    --web-orange-50: #fffbeb;
+    --web-orange-100: #fff5c6;
+    --web-orange-200: #ffea88;
+    --web-orange-300: #ffd949;
+    --web-orange-400: #ffc620;
+    --web-orange-500: #f29f05;
+    --web-orange-600: #dd7c02;
+    --web-orange-700: #b85705;
+    --web-orange-800: #95420b;
+    --web-orange-900: #7a360d;
+    --web-orange-950: #461b02;
+
+    --gold-50: #fefee8;
+    --gold-100: #ffffc2;
+    --gold-200: #fffa88;
+    --gold-300: #fff145;
+    --gold-400: #fde112;
+    --gold-500: #f2cb05;
+    --gold-600: #cd9b01;
+    --gold-700: #a36e05;
+    --gold-800: #87570c;
+    --gold-900: #724711;
+    --gold-950: #432505;
+
+    --medium-red-violet-50: #fcf3fa;
+    --medium-red-violet-100: #fae9f6;
+    --medium-red-violet-200: #f6d4ee;
+    --medium-red-violet-300: #f0b1e0;
+    --medium-red-violet-400: #e680ca;
+    --medium-red-violet-500: #da5ab3;
+    --medium-red-violet-600: #bf368f;
+    --medium-red-violet-700: #ac2a7b;
+    --medium-red-violet-800: #8e2665;
+    --medium-red-violet-900: #772456;
+    --medium-red-violet-950: #480f32;
+
+    --monza-50: #fef2f2;
+    --monza-100: #fee2e2;
+    --monza-200: #fdcbcb;
+    --monza-300: #fba6a6;
+    --monza-400: #f77272;
+    --monza-500: #ed4646;
+    --monza-600: #da2828;
+    --monza-700: #bf1f1f;
+    --monza-800: #981c1c;
+    --monza-900: #7e1e1e;
+    --monza-950: #440b0b;
+
+    --white-50: #ffffff;
+    --white-100: #efefef;
+    --white-200: #dcdcdc;
+    --white-300: #bdbdbd;
+    --white-400: #989898;
+    --white-500: #7c7c7c;
+    --white-600: #656565;
+    --white-700: #525252;
+    --white-800: #464646;
+    --white-900: #3d3d3d;
+    --white-950: #292929;
+}
+
+/*colores*/
+
+/* Clases con el atributo color para la paleta Lima */
+.color-lima-50 {
+    color: var(--lima-50);
+}
+
+.color-lima-100 {
+    color: var(--lima-100);
+}
+
+.color-lima-200 {
+    color: var(--lima-200);
+}
+
+.color-lima-300 {
+    color: var(--lima-300);
+}
+
+.color-lima-400 {
+    color: var(--lima-400);
+}
+
+.color-lima-500 {
+    color: var(--lima-500);
+}
+
+.color-lima-600 {
+    color: var(--lima-600);
+}
+
+.color-lima-700 {
+    color: var(--lima-700);
+}
+
+.color-lima-800 {
+    color: var(--lima-800);
+}
+
+.color-lima-900 {
+    color: var(--lima-900);
+}
+
+.color-lima-950 {
+    color: var(--lima-950);
+}
+
+/* Clases con el atributo color para la paleta Web Orange */
+.color-web-orange-50 {
+    color: var(--web-orange-50);
+}
+
+.color-web-orange-100 {
+    color: var(--web-orange-100);
+}
+
+.color-web-orange-200 {
+    color: var(--web-orange-200);
+}
+
+.color-web-orange-300 {
+    color: var(--web-orange-300);
+}
+
+.color-web-orange-400 {
+    color: var(--web-orange-400);
+}
+
+.color-web-orange-500 {
+    color: var(--web-orange-500);
+}
+
+.color-web-orange-600 {
+    color: var(--web-orange-600);
+}
+
+.color-web-orange-700 {
+    color: var(--web-orange-700);
+}
+
+.color-web-orange-800 {
+    color: var(--web-orange-800);
+}
+
+.color-web-orange-900 {
+    color: var(--web-orange-900);
+}
+
+.color-web-orange-950 {
+    color: var(--web-orange-950);
+}
+
+/* Clases con el atributo color para la paleta Gold */
+.color-gold-50 {
+    color: var(--gold-50);
+}
+
+.color-gold-100 {
+    color: var(--gold-100);
+}
+
+.color-gold-200 {
+    color: var(--gold-200);
+}
+
+.color-gold-300 {
+    color: var(--gold-300);
+}
+
+.color-gold-400 {
+    color: var(--gold-400);
+}
+
+.color-gold-500 {
+    color: var(--gold-500);
+}
+
+.color-gold-600 {
+    color: var(--gold-600);
+}
+
+.color-gold-700 {
+    color: var(--gold-700);
+}
+
+.color-gold-800 {
+    color: var(--gold-800);
+}
+
+.color-gold-900 {
+    color: var(--gold-900);
+}
+
+.color-gold-950 {
+    color: var(--gold-950);
+}
+
+/* Clases con el atributo color para la paleta Medium Red Violet */
+.color-medium-red-violet-50 {
+    color: var(--medium-red-violet-50);
+}
+
+.color-medium-red-violet-100 {
+    color: var(--medium-red-violet-100);
+}
+
+.color-medium-red-violet-200 {
+    color: var(--medium-red-violet-200);
+}
+
+.color-medium-red-violet-300 {
+    color: var(--medium-red-violet-300);
+}
+
+.color-medium-red-violet-400 {
+    color: var(--medium-red-violet-400);
+}
+
+.color-medium-red-violet-500 {
+    color: var(--medium-red-violet-500);
+}
+
+.color-medium-red-violet-600 {
+    color: var(--medium-red-violet-600);
+}
+
+.color-medium-red-violet-700 {
+    color: var(--medium-red-violet-700);
+}
+
+.color-medium-red-violet-800 {
+    color: var(--medium-red-violet-800);
+}
+
+.color-medium-red-violet-900 {
+    color: var(--medium-red-violet-900);
+}
+
+.color-medium-red-violet-950 {
+    color: var(--medium-red-violet-950);
+}
+
+/* Clases con el atributo color para la paleta Monza */
+.color-monza-50 {
+    color: var(--monza-50);
+}
+
+.color-monza-100 {
+    color: var(--monza-100);
+}
+
+.color-monza-200 {
+    color: var(--monza-200);
+}
+
+.color-monza-300 {
+    color: var(--monza-300);
+}
+
+.color-monza-400 {
+    color: var(--monza-400);
+}
+
+.color-monza-500 {
+    color: var(--monza-500);
+}
+
+.color-monza-600 {
+    color: var(--monza-600);
+}
+
+.color-monza-700 {
+    color: var(--monza-700);
+}
+
+.color-monza-800 {
+    color: var(--monza-800);
+}
+
+.color-monza-900 {
+    color: var(--monza-900);
+}
+
+.color-monza-950 {
+    color: var(--monza-950);
+}
+
+/* Clases con el atributo color para la paleta White */
+.color-white-50 {
+    color: var(--white-50);
+}
+
+.color-white-100 {
+    color: var(--white-100);
+}
+
+.color-white-200 {
+    color: var(--white-200);
+}
+
+.color-white-300 {
+    color: var(--white-300);
+}
+
+.color-white-400 {
+    color: var(--white-400);
+}
+
+.color-white-500 {
+    color: var(--white-500);
+}
+
+.color-white-600 {
+    color: var(--white-600);
+}
+
+.color-white-700 {
+    color: var(--white-700);
+}
+
+.color-white-800 {
+    color: var(--white-800);
+}
+
+.color-white-900 {
+    color: var(--white-900);
+}
+
+.color-white-950 {
+    color: var(--white-950);
+}

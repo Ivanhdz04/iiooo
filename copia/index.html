@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="colors.css">
+    <link rel="stylesheet" href="globales.css">
+    <link rel="stylesheet" href="styless.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Estacionamiento Inteligente</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Estacionamiento</h1>
+    </header>
+    <nav class="nav">
+        <div class="infoNumero">
+            <h4>Detalles</h4>
+            <div class="infoNumeroBox">
+                <div class="total">
+                    <p>Disponible/Total</p>
+                    <p class="data">10/69</p>
+                </div>
+                <div class="porcentaje">
+                    <p>Porcentaje de ocupación</p>
+                    <p class="data">12%</p>
+                </div>
+            </div>
+        </div>
+        <div class="capacidadRe">
+            <h4>Medición</h4>
+            <div class="semaforo">
+                <div class="libre">
+                    <p>Libre</p>
+                    <div class="spanLibre"></div>
+                </div>
+                <div class="medio">
+                    <p>Medio</p>
+                    <div class="spanMedio"></div>
+                </div>
+                <div class="lleno">
+                    <p>Lleno</p>
+                    <div class="spanLleno"></div>
+                </div> 
+            </div>
+            
+        </div>
+        <div class="view">
+            <h4>Vista</h4>
+            <div class="views">
+                <div class="viewsLive">
+                    <p>En vivo</p>
+                    <button id="liveButton" onclick="chooseSection('1')" type="button" class="bxMio spanLive">
+                        <i class='bx bx-video'></i>
+                    </button>
+                </div>
+                <div class="viewsModel">
+                    <p>Modelo web</p>
+                    <button id="modelButton" onclick="chooseSection('2')" type="button" class="bxMio spanModel">
+                        <i class='bx bx-cube-alt'></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <section id="model" class="Model">
+            <div class="fila">
+                <div class="cajon">
+                    <p>F1-A1</p>
+                </div>
+                <div class="cajon">
+                    <p>F1-A2</p>
+                </div>
+                <div class="cajon">
+                    <p>F1-A3</p>
+                </div>
+                <div class="cajon">
+                    <p>F1-A4</p>
+                </div>
+                <div class="cajon">
+                    <p>F1-A5</p>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="cajon">
+                    <p>F2-A1</p>
+                </div>
+                <div class="cajon">
+                    <p>F2-A2</p>
+                </div>
+                <div class="cajon">
+                    <p>F2-A3</p>
+                </div>
+                <div class="cajon">
+                    <p>F2-A4</p>
+                </div>
+                <div class="cajon">
+                    <p>F2-A5</p>
+                </div>
+            </div>
+        </section>
+        <section id="live" class="Live">
+            <h1>aqui ira el video en vivo usando python </h1>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
